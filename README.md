@@ -1,2 +1,3 @@
-# Pravokotniki
- pravokotniki na sredini strani
+# Pravokotnika 
+ pravokotnika na sredini strani
+ prilagojeno mobitelu 
