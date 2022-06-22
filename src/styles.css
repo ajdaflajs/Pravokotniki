@@ -1,0 +1,31 @@
+body {
+     margin: 0px;
+} 
+
+.center {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;  
+}
+
+.left, .right {
+    height: 800px;
+    width: 300px;
+    margin: 10px;
+}
+
+.left {
+    background-color: darkseagreen;
+}
+
+.right { 
+    background-color: #1DEDEC;
+}
+
+/* responsive layout */
+
+@media screen and (max-width: 320px) {
+    .center {
+        flex-direction: column;
+    }
+}
